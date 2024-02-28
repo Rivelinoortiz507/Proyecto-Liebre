@@ -1,0 +1,201 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ebebeb;
+  padding-bottom: 40px;
+}
+
+p {
+  font-size: 12px;
+}
+
+.top-header {
+  padding: 5%;
+}
+
+header {
+  background-color: #eac926;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+}
+
+.compra{
+font-size: 15px;
+}
+
+.form{
+  padding-top: 20px;
+}
+
+header ul li {
+  list-style-type: none;
+}
+
+header ul li a {
+  text-decoration: none;
+  color: #000;
+}
+
+header .form .input {
+  background-color: #fff;
+  border: 1px solid #000;
+  outline: none;
+  color: #666;
+  padding: 2px;
+}
+
+
+.top-header p {
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav {
+  display: flex;
+  display: none;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 25px;
+}
+
+.nav1,
+.nav2 {
+  display: flex;
+  width: 40%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.burger-menu {
+  text-align: center;
+}
+
+.burger-menu i {
+  background-color: #0044aa;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  height: 40px;
+  margin: 10px 0px 20px 0px;
+  padding: 10px;
+  width: 40px;
+}
+
+h2{
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  border-radius: 10px;
+  background-color: #a3a397;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  box-shadow: 1px 5px 20px 1px black;
+}
+
+.primer-cuadrante{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.segundo-cuadrante{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: justify;
+}
+
+.tercer-cuadrante{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 10px;
+  text-align: justify;
+}
+
+@media (min-width: 361px) {
+  nav {
+    display: flex;
+    padding-bottom: 25px;
+  }
+  .burger-menu {
+    display: none;
+  }
+  .description {
+    display: block;
+  }
+
+  .nav1, .nav2{
+    font-size: 15px;
+  }
+
+  }
+  .form{
+    text-align: center;
+  font-size: 17px;  
+  padding-right: 17%;
+  padding-left: 17%;
+}
+input{
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.enviar, .borrar{
+font-size: 20px;
+padding:7px;
+border-radius: 20px;
+}
+
+.enviar:hover{
+  color: red;
+}
+
+.borrar:hover{
+  color: red;
+}
+
+
+
+@media (min-width: 769px) {
+
+
+  .form{
+    font-size: 20px; 
+    text-align: center;
+    font-size: 17px;  
+    padding-right: 400px;
+    padding-left: 400px;
+  }
+
+.nav1, .nav2{
+  font-size: 20px;
+}
+.mano-dinero{
+  padding-right: 10px;
+  font-size: 25px;
+}
+}
